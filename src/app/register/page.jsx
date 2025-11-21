@@ -22,7 +22,7 @@ const router = useRouter();
       const res = await axios.post("/api/register", form);
       alert("User registered successfully");
       console.log("all done");
-      router.push("/");
+      router.push("/login");
       
       console.log(res);
     } catch (error) {

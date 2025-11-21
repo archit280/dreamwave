@@ -22,7 +22,7 @@ const Page = () => {
     try {
       const res = await axios.post("/api/login", form);
 
-      
+      router.push("/");
 
       
 
